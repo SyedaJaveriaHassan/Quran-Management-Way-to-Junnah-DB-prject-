@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="811" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" pref="510" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="99" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Algerian" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Al-Quran"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="310" y="70" width="200" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="66" red="99" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Algerian" size="36" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="WAY TO JUNNAH"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="260" y="20" width="300" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="114">
+                <StringItem index="0" value="Al-Fatihah(The Opening)"/>
+                <StringItem index="1" value="Al-Baqarah(The Cow)"/>
+                <StringItem index="2" value="Al-&#x2018;Imran(The Family of Amran)"/>
+                <StringItem index="3" value="An-Nisa&#x2019;(The Women)"/>
+                <StringItem index="4" value="Al-Ma&#x2019;idah(The Food)"/>
+                <StringItem index="5" value="Al-An&#x2019;am(The Cattle)"/>
+                <StringItem index="6" value="Al-A&#x2019;raf(The Elevated Places)"/>
+                <StringItem index="7" value="Al-Anfal(Voluntary Gifts)"/>
+                <StringItem index="8" value="Al-Bara&#x2019;at / At-Taubah(The Immunity)"/>
+                <StringItem index="9" value="Yunus(Jonah)"/>
+                <StringItem index="10" value="Hud(Hud)"/>
+                <StringItem index="11" value="Yusuf(Joseph)"/>
+                <StringItem index="12" value="Ar-Ra&#x2019;d(The Thunder)"/>
+                <StringItem index="13" value="Ibrahim(Abraham)"/>
+                <StringItem index="14" value="Al-Hijr(The Rock)"/>
+                <StringItem index="15" value="An-Nahl(The Bee)"/>
+                <StringItem index="16" value="Bani Isra&#x2019;il(The Israelites)"/>
+                <StringItem index="17" value="Al-Kahf(The Cave)"/>
+                <StringItem index="18" value="Maryam(Mary)"/>
+                <StringItem index="19" value="Ta Ha(Ta Ha)"/>
+                <StringItem index="20" value="Al-Anbiya&#x2019;(The Prophets)"/>
+                <StringItem index="21" value="Al-Hajj(The Pilgrimage)"/>
+                <StringItem index="22" value="Al-Mu&#x2019;minun(The Believers)"/>
+                <StringItem index="23" value="An-Nur(The Light)"/>
+                <StringItem index="24" value="Al-Furqan(The Discrimination)"/>
+                <StringItem index="25" value="Ash-Shu&#x2019;ara&#x2019;(The Poets)"/>
+                <StringItem index="26" value="An-Naml(The Naml)"/>
+                <StringItem index="27" value="Al-Qasas(The Narrative)"/>
+                <StringItem index="28" value="Al-&#x2018;Ankabut(The Spider)"/>
+                <StringItem index="29" value="Ar-Rum(The Romans)"/>
+                <StringItem index="30" value="Luqman(Luqman)"/>
+                <StringItem index="31" value="As-Sajdah(The Adoration)"/>
+                <StringItem index="32" value="Al-Ahzab(The Allies)"/>
+                <StringItem index="33" value="Al-Saba&#x2019;(The Saba&#x2019;)"/>
+                <StringItem index="34" value="Al-Fatir(The Originator)"/>
+                <StringItem index="35" value="Ya Sin(Ya Sin)"/>
+                <StringItem index="36" value="As-Saffat(Those Ranging in Ranks)"/>
+                <StringItem index="37" value="Sad(Sad)"/>
+                <StringItem index="38" value="Az-Zumar(The Companies)"/>
+                <StringItem index="39" value="Al-Mu&#x2019;min(The Believer)"/>
+                <StringItem index="40" value="Ha Mim(Ha Mim)"/>
+                <StringItem index="41" value="Ash-Shura(Counsel)"/>
+                <StringItem index="42" value="Az-Zukhruf(Gold)"/>
+                <StringItem index="43" value="Ad-Dukhan(The Drought)"/>
+                <StringItem index="44" value="Al-Jathiyah(The Kneeling)"/>
+                <StringItem index="45" value="Al-Ahqaf(The Sandhills)"/>
+                <StringItem index="46" value="Muhammad(Muhammad)"/>
+                <StringItem index="47" value="Al-Fath(The Victory)"/>
+                <StringItem index="48" value="Al-Hujurat(The Apartments)"/>
+                <StringItem index="49" value="Qaf(Qaf)"/>
+                <StringItem index="50" value="Ad-Dhariyat(The Scatterers)"/>
+                <StringItem index="51" value="At-Tur(The Mountain)"/>
+                <StringItem index="52" value="An-Najm(The Star)"/>
+                <StringItem index="53" value="Al-Qamar(The Moon)"/>
+                <StringItem index="54" value="Ar-Rahman(The Beneficent)"/>
+                <StringItem index="55" value="Al-Waqi&#x2019;ah(The Event)"/>
+                <StringItem index="56" value="Al-Hadid(Iron)"/>
+                <StringItem index="57" value="Al-Mujadilah(The Pleading Woman)"/>
+                <StringItem index="58" value="Al-Hashr(The Banishment)"/>
+                <StringItem index="59" value="Al-Mumtahanah(The Woman who is Examined)"/>
+                <StringItem index="60" value="As-Saff(The Ranks)"/>
+                <StringItem index="61" value="Al-Jumu&#x2019;ah(The Congregation)"/>
+                <StringItem index="62" value="Al-Munafiqun(The Hypocrites)"/>
+                <StringItem index="63" value="At-Taghabun(The Manifestation of Losses)"/>
+                <StringItem index="64" value="At-Talaq(Divorce)"/>
+                <StringItem index="65" value="At-Tahrim(The Prohibition)"/>
+                <StringItem index="66" value="Al-Mulk(The Kingdom)"/>
+                <StringItem index="67" value="Al-Qalam(The Pen)"/>
+                <StringItem index="68" value="Al-Haqqah(The Sure Truth)"/>
+                <StringItem index="69" value="Al-Ma&#x2019;arij(The Ways of Ascent)"/>
+                <StringItem index="70" value="Nuh(Noah)"/>
+                <StringItem index="71" value="Al-Jinn(The Jinn)"/>
+                <StringItem index="72" value="Al-Muzzammil(The One Covering Himself)"/>
+                <StringItem index="73" value="Al-Muddaththir(The One Wrapping Himself Up)"/>
+                <StringItem index="74" value="Al-Qiyamah(The Resurrection)"/>
+                <StringItem index="75" value="Al-Insan(The Man)"/>
+                <StringItem index="76" value="Al-Mursalat(Those Sent Forth)"/>
+                <StringItem index="77" value="An-Naba&#x2019;(The Announcement)"/>
+                <StringItem index="78" value="An-Nazi&#x2019;at(Those Who Yearn)"/>
+                <StringItem index="79" value="&#x2018;Abasa(He Frowned)"/>
+                <StringItem index="80" value="At-Takwir(The Folding Up)"/>
+                <StringItem index="81" value="Al-Infitar(The Cleaving)"/>
+                <StringItem index="82" value="At-Tatfif(Default in Duty)"/>
+                <StringItem index="83" value="Al-Inshiqaq(The Bursting Asunder)"/>
+                <StringItem index="84" value="Al-Buruj(The Stars)"/>
+                <StringItem index="85" value="At-Tariq(The Comer by Night)"/>
+                <StringItem index="86" value="Al-A&#x2019;la(The Most High)"/>
+                <StringItem index="87" value="Al-Ghashiyah(The Overwhelming Event)"/>
+                <StringItem index="88" value="Al-Fajr(The Daybreak)"/>
+                <StringItem index="89" value="Al-Balad(The City)"/>
+                <StringItem index="90" value="Ash-Shams(The Sun)"/>
+                <StringItem index="91" value="Al-Lail(The Night)"/>
+                <StringItem index="92" value="Ad-Duha(The Brightness of the Day)"/>
+                <StringItem index="93" value="Al-Inshirah(The Expansion)"/>
+                <StringItem index="94" value="At-Tin(The Fig)"/>
+                <StringItem index="95" value="Al-&#x2018;Alaq(The Clot)"/>
+                <StringItem index="96" value="Al-Qadr(The Majesty)"/>
+                <StringItem index="97" value="Al-Bayyinah(The Clear Evidence)"/>
+                <StringItem index="98" value="Al-Zilzal(The Shaking)"/>
+                <StringItem index="99" value="Al-&#x2018;Adiyat(The Assaulters)"/>
+                <StringItem index="100" value="Al-Qari&#x2019;ah(The Calamity)"/>
+                <StringItem index="101" value="At-Takathur(The Abundance of Wealth)"/>
+                <StringItem index="102" value="Al-&#x2018;Asr(The Time)"/>
+                <StringItem index="103" value="Al-Humazah(The Slanderer)"/>
+                <StringItem index="104" value="Al-Fil(The Elephant)"/>
+                <StringItem index="105" value="Al-Quraish(The Quraish)"/>
+                <StringItem index="106" value="Al-Ma&#x2019;un(Acts of Kindness)"/>
+                <StringItem index="107" value="Al-Kauthar(The Abundance of Good)"/>
+                <StringItem index="108" value="Al-Kafirun(The Disbelievers)"/>
+                <StringItem index="109" value="An-Nasr(The Help)"/>
+                <StringItem index="110" value="Al-Lahab(The Flame)"/>
+                <StringItem index="111" value="Al-Ikhlas(The Unity)"/>
+                <StringItem index="112" value="Al-Falaq(The Dawn)"/>
+                <StringItem index="113" value="An-Nas(The Men)"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jComboBox1MouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="280" width="320" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="60">
+                <StringItem index="0" value="&#x622;&#x644;&#x622;&#x644;&#x645;"/>
+                <StringItem index="1" value="&#x633;&#x64a;&#x642;&#x648;&#x644; &#x627;&#x644;&#x633;&#x641;&#x647;&#x627;&#x621;"/>
+                <StringItem index="2" value="&#x62a;&#x644;&#x643; &#x627;&#x644;&#x631;&#x633;&#x644;"/>
+                <StringItem index="3" value="&#x644;&#x646; &#x62a;&#x646;&#x627;&#x644;&#x648;&#x627;"/>
+                <StringItem index="4" value="&#x648;&#x627;&#x644;&#x645;&#x62d;&#x635;&#x646;&#x627;&#x62a;"/>
+                <StringItem index="5" value="&#x644;&#x627; &#x64a;&#x62d;&#x628; &#x627;&#x644;&#x644;&#x647;"/>
+                <StringItem index="6" value="&#x648;&#x625;&#x630;&#x627; &#x633;&#x645;&#x639;&#x648;&#x627;"/>
+                <StringItem index="7" value="&#x648;&#x644;&#x648; &#x623;&#x646;&#x646;&#x627;"/>
+                <StringItem index="8" value="&#x642;&#x627;&#x644; &#x627;&#x644;&#x645;&#x644;&#x623;"/>
+                <StringItem index="9" value="&#x648;&#x627;&#x639;&#x644;&#x645;&#x648;&#x627;"/>
+                <StringItem index="10" value="&#x64a;&#x639;&#x62a;&#x630;&#x631;&#x648;&#x646;"/>
+                <StringItem index="11" value="&#x648;&#x645;&#x627;&#x645;&#x646; &#x62f;&#x627;&#x628;&#x629;"/>
+                <StringItem index="12" value="&#x648;&#x645;&#x627; &#x623;&#x628;&#x631;&#x626;"/>
+                <StringItem index="13" value="&#x631;&#x628;&#x645;&#x627;"/>
+                <StringItem index="14" value="&#x633;&#x628;&#x62d;&#x670;&#x646; &#x627;&#x644;&#x630;&#x6cc;&#x653;"/>
+                <StringItem index="15" value="&#x642;&#x627;&#x644; &#x623;&#x644;&#x645;"/>
+                <StringItem index="16" value="&#x627;&#x642;&#x62a;&#x631;&#x628; &#x644;&#x644;&#x646;&#x627;&#x633;"/>
+                <StringItem index="17" value="&#x642;&#x62f; &#x623;&#x641;&#x644;&#x62d;"/>
+                <StringItem index="18" value="&#x648;&#x642;&#x627;&#x644; &#x627;&#x644;&#x630;&#x64a;&#x646;"/>
+                <StringItem index="19" value="&#x627;&#x645;&#x646; &#x62e;&#x644;&#x642;"/>
+                <StringItem index="20" value="&#x627;&#x62a;&#x644; &#x645;&#x622; &#x627;&#x648;&#x62d;&#x6cc;"/>
+                <StringItem index="21" value="&#x648;&#x645;&#x646; &#x64a;&#x642;&#x646;&#x62a;"/>
+                <StringItem index="22" value="&#x648;&#x645;&#x627;&#x644;&#x6cc;"/>
+                <StringItem index="23" value="&#x641;&#x645;&#x646; &#x623;&#x638;&#x644;&#x645;"/>
+                <StringItem index="24" value="&#x625;&#x644;&#x64a;&#x647; &#x64a;&#x631;&#x62f;"/>
+                <StringItem index="25" value="&#x62d;&#x640;&#x645;"/>
+                <StringItem index="26" value="&#x642;&#x627;&#x644; &#x641;&#x645;&#x627; &#x62e;&#x637;&#x628;&#x643;&#x645;"/>
+                <StringItem index="27" value="&#x642;&#x62f; &#x633;&#x645;&#x639; &#x627;&#x644;&#x644;&#x6c1;"/>
+                <StringItem index="28" value="&#x62a;&#x628;&#x670;&#x631;&#x6a9; &#x627;&#x644;&#x630;&#x6cc;"/>
+                <StringItem index="29" value="&#x639;&#x645;&#x651;"/>
+                <StringItem index="30" value="&#x633;&#x64a;&#x642;&#x648;&#x644; &#x627;&#x644;&#x633;&#x641;&#x647;&#x627;&#x621;"/>
+                <StringItem index="31" value="&#x62a;&#x644;&#x643; &#x627;&#x644;&#x631;&#x633;&#x644;"/>
+                <StringItem index="32" value="&#x644;&#x646; &#x62a;&#x646;&#x627;&#x644;&#x648;&#x627;  "/>
+                <StringItem index="33" value="&#x648;&#x627;&#x644;&#x645;&#x62d;&#x635;&#x646;&#x627;&#x62a;"/>
+                <StringItem index="34" value="&#x644;&#x627; &#x64a;&#x62d;&#x628; &#x627;&#x644;&#x644;&#x647;"/>
+                <StringItem index="35" value="&#x648;&#x625;&#x630;&#x627; &#x633;&#x645;&#x639;&#x648;&#x627;"/>
+                <StringItem index="36" value="&#x648;&#x644;&#x648; &#x623;&#x646;&#x646;&#x627;"/>
+                <StringItem index="37" value="&#x642;&#x627;&#x644; &#x627;&#x644;&#x645;&#x644;&#x623;"/>
+                <StringItem index="38" value="&#x648;&#x627;&#x639;&#x644;&#x645;&#x648;&#x627;"/>
+                <StringItem index="39" value="&#x64a;&#x639;&#x62a;&#x630;&#x631;&#x648;&#x646;"/>
+                <StringItem index="40" value="&#x648;&#x645;&#x627;&#x645;&#x646; &#x62f;&#x627;&#x628;"/>
+                <StringItem index="41" value="&#x648;&#x645;&#x627; &#x623;&#x628;&#x631;&#x626; "/>
+                <StringItem index="42" value="&#x631;&#x628;&#x645;&#x627;"/>
+                <StringItem index="43" value="&#x633;&#x628;&#x62d;&#x670;&#x646; &#x627;&#x644;&#x630;&#x6cc;&#x653;"/>
+                <StringItem index="44" value="&#x642;&#x627;&#x644; &#x623;&#x644;&#x645;"/>
+                <StringItem index="45" value="&#x627;&#x642;&#x62a;&#x631;&#x628; &#x644;&#x644;&#x646;&#x627;&#x633;"/>
+                <StringItem index="46" value="&#x642;&#x62f; &#x623;&#x641;&#x644;&#x62d;"/>
+                <StringItem index="47" value="&#x648;&#x642;&#x627;&#x644; &#x627;&#x644;&#x630;&#x64a;&#x646;"/>
+                <StringItem index="48" value="&#x627;&#x645;&#x646; &#x62e;&#x644;&#x642;"/>
+                <StringItem index="49" value="&#x627;&#x62a;&#x644; &#x645;&#x622; &#x627;&#x648;&#x62d;&#x6cc;"/>
+                <StringItem index="50" value="&#x648;&#x645;&#x646; &#x64a;&#x642;&#x646;&#x62a;"/>
+                <StringItem index="51" value="&#x648;&#x645;&#x627;&#x644;&#x6cc;"/>
+                <StringItem index="52" value="&#x641;&#x645;&#x646; &#x623;&#x638;&#x644;&#x645;"/>
+                <StringItem index="53" value="&#x625;&#x644;&#x64a;&#x647; &#x64a;&#x631;&#x62f;"/>
+                <StringItem index="54" value="&#x62d;&#x640;&#x645;"/>
+                <StringItem index="55" value="&#x642;&#x627;&#x644; &#x641;&#x645;&#x627; &#x62e;&#x637;&#x628;&#x643;&#x645;"/>
+                <StringItem index="56" value="&#x642;&#x62f; &#x633;&#x645;&#x639; &#x627;&#x644;&#x644;&#x6c1;"/>
+                <StringItem index="57" value="&#x62a;&#x628;&#x670;&#x631;&#x6a9; &#x627;&#x644;&#x630;&#x6cc;"/>
+                <StringItem index="58" value="&#x639;&#x645;&#x651;"/>
+                <StringItem index="59" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox2ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="190" width="310" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="10">
+                <StringItem index="0" value="Al-Fatihah(The Opening)"/>
+                <StringItem index="1" value="Al-Baqarah(The Cow)"/>
+                <StringItem index="2" value="Al-&#x2018;Imran(The Family of Amran)"/>
+                <StringItem index="3" value="Al-Quraish(The Quraish)"/>
+                <StringItem index="4" value="Al-Kafirun(The Disbelievers)"/>
+                <StringItem index="5" value="An-Nasr(The Help)"/>
+                <StringItem index="6" value="Al-Lahab(The Flame)"/>
+                <StringItem index="7" value="Al-Ikhlas(The Unity)"/>
+                <StringItem index="8" value="Al-Falaq(The Dawn)"/>
+                <StringItem index="9" value="An-Nas(The Men)"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jComboBox3MouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox3ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="290" y="380" width="320" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ok"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton4MouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="670" y="280" width="60" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ok"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="670" y="380" width="60" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="460" width="90" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ok"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="670" y="200" width="60" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search by Ayah"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="390" width="210" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search By Surrah"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="280" width="210" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Search By Juzz"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="180" width="210" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\Javeria\Pictures\Camera Roll\QuranScreen.jpg"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="810" height="510"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
